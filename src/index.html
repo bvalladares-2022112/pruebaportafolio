@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Portfolio </title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Brener</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Inicio</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">Acerca de mi</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Proyectos</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contacto</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-button">
+            <a href="assets/cv Brener.pdf" class="btn no-underline">
+                Descargar CV <i class="uil uil-file-alt"></i>
+            </a>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Brener Valladares</span>
+            </div>
+            <div class="featured-name">
+                <p>Soy <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>¡Bienvenidos a mi portafolio! Soy un desarrollador web apasionado por crear experiencias web únicas y funcionales. Aquí encontrarás información sobre mi experiencia, 
+                    habilidades, proyectos y cómo contactarme. Estoy siempre en busca de nuevas oportunidades para aprender y crecer en el campo del desarrollo web.
+                </p>
+            </div>
+            <div class="nav-button">
+                <a href="assets/cv Brener.pdf" class="btn no-underline">
+                    Descargar CV <i class="uil uil-file-alt"></i>
+                </a>
+            </div>
+            <div class="social_icons">
+                <div class="icon">
+                    <a href="https://www.instagram.com/brener_vch_/" target="_blank">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://github.com/bvalladares-2022112" target="_blank">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/avatar.png" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Baja</p>
+            </a>
+          </div>
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>Acerca de mi</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>Acerca de mí</h3>
+                    <p>Soy estudiante de perito en computación (informática) con un nivel aceptable del idioma inglés. Me considero una persona multitareas, capaz de manejar varios proyectos simultáneamente con eficiencia y organización. Además, tengo un gran interés en aprender portugués y planeo seguir estudiando ingeniería industrial en la universidad.
+                    </p>
+                    <div class="about-btn">
+                        <a href="assets/cv Brener.pdf" class="no-underline">
+                            <button class="btn">Descargar CV <i class="uil uil-import"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML 70%</span>
+                        <span>CSS 60%</span>
+                        <span>Bootstrap 60%</span>
+                        <span>JavaScript 75%</span>
+                        <span>React 40%</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>JavaScript 75%</span>
+                        <span>JAVA 80%</span>
+                        <span>JAVA EE 40%</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>MySQL 75%</span>
+                        <span>MongoDB 60%</span>
+                    </div>
+                </div>
+            </div>
+          </div>
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+       <section class="section" id="projects">
+        <div class="top-header">
+            <h1>Proyectos Interfaces</h1>
+        </div>
+        <div class="project-container">
+            <div class="project-box">
+                <img src="assets/images/banca.png" alt="Proyecto 1" class="project-image">
+                <h3>Banca</h3>
+                <label>Año 2022</label>
+            </div>
+            <div class="project-box">
+                <img src="assets/images/restauranteMariscos.png" alt="Proyecto 2" class="project-image">
+                <h3>Restaurante Mariscos</h3>
+                <label>Año 2022</label>
+            </div>
+            <div class="project-box">
+                <img src="assets/images/calculadoragrafica.png" alt="Proyecto 3" class="project-image">
+                <h3>Calculadora Grafica</h3>
+                <label>Año 2023</label>
+            </div>
+            <div class="project-box">
+                <img src="assets/images/tonysKinal.png" alt="Proyecto 4" class="project-image">
+                <h3>Tony's Kinal</h3>
+                <label>Año 2023</label>
+            </div>
+            <div class="project-box">
+                <img src="assets/images/pagina kinal.png" alt="Proyecto 5" class="project-image">
+                <h3>Rediseño de Kinal</h3>
+                <label>Año 2024</label>
+            </div>
+            <div class="project-box">
+                <img src="assets/images/proyectoCine.png" alt="Proyecto 6" class="project-image">
+                <h3>Cine</h3>
+                <label>Año 2023</label>
+            </div>
+            <div class="project-box">
+                <img src="assets/images/blogProgramador.png" alt="Proyecto 7" class="project-image">
+                <h3>Blog del Programador</h3>
+                <label>Año 2024</label>
+            </div>
+            <div class="project-box">
+                <img src="assets/images/innovabank.png" alt="Proyecto 8" class="project-image">
+                <h3>innovabank</h3>
+                <label>Año 2024</label>
+            </div>
+            <div class="project-box">
+                <img src="assets/images/hotelera.png" alt="Proyecto 9" class="project-image">
+                <h3>Hotelera</h3>
+                <label>Año 2024</label>
+            </div>
+        </div>
+    </section>
+
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Contactame</h1>
+            <span>Tienes algun proyecto en mente, contactame</span>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Escribeme <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: bchian851@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +502 3031-7163</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Enviar <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Brener Valladares .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">Acerca de mi</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Proyectos</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <div class="social_icons">
+            <div class="icon">
+                <a href="https://www.instagram.com/brener_vch_/" target="_blank">
+                    <i class="uil uil-instagram"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/bvalladares-2022112" target="_blank">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Brener Valldares</a> - All rights reserved</p>
+        </div>
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
